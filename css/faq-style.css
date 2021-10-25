@@ -1,0 +1,10 @@
+#acordeon{
+	margin-top: var(--space);
+	padding: var(--half-space);
+}
+#acordeon p{
+	text-align: justify;
+}
+#acordeon h3{
+	cursor: pointer;
+}

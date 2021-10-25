@@ -1,0 +1,57 @@
+body{	
+	background: url();
+	background-color: black;
+}
+h2{
+	color: red;
+}
+h3{
+	color: white;
+}
+p{
+	color: white;
+}
+#global{
+	background: black;
+}
+#logo-header{
+	color: white;
+}
+.menu a{
+	color: white;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: red;
+}
+.fecha{
+	color: white;
+}
+.btn{
+	background: white;
+	color: black;
+}
+.btn:hover{
+	color: white;
+}
+#btn-submit{
+	margin-bottom: 100px;
+}
+.sidebar h2{
+	color: black;
+}
+#pulpo{
+	display: none;
+}
+footer{
+	background: white;
+}
+#logo-footer{
+	color: black;
+}
+.reloj{
+	color: black;
+}
+#flecha{
+	color: black;
+}
+

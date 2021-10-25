@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Musictech</title>
+
+	<!--jQuery-->
+	<script src="./js/jquery-3.6.0.min.js"></script>
+
+	<!--Slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">  	
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  	<!--Moment-->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+
+  	<!--Animate.css-->
+  	<!--<link rel="stylesheet" type="text/css" href="./css/animate.min.css">-->
+
+  	<!--<script type="text/javascript" src="./js/jquery-aniview-master/dist/jquery.aniview.js"></script>-->
+  	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!--CSS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" id="theme" href="">
+</head>
+<body>
+	<div id="global">
+		<div id="change-theme">
+			<div id="change-theme-dark"></div>
+			<div id="change-theme-light"></div>	
+		</div>
+
+		<header data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
+			<div class="logo">
+				<h1><a href="./index.html" id="logo-header">Musictech</a></h1>
+			</div>
+			
+<!--Menu-->
+			<nav>
+				<ul class="menu">
+					<li class="point"><a href="#about">Sobre mi</a></li>
+					<li class="point"><a href="#tour">Tours</a></li>
+					<li class="point"><a href="#blog">Blog</a></li>
+					<li class="point"><a href="./faq.html">FAQ</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+<!--Slider-->
+		<section class="slider">		    
+  			<div class="img-slider"><img src="./img/slider1.jpg"></div>
+			<div class="img-slider"><img src="./img/slider2.jpg"></div>
+			<div class="img-slider"><img src="./img/slider3.jpg"></div>			
+		</section>
+
+<!--About-->
+		<section class="seccion" id="about" >
+			<h2 class="space">About.</h2>
+			<div class="align">
+				<img src="./img/sobre-mi.jpg" class="circle">			
+				<div class="text-about space" data-aos="fade-up" data-aos-delay=»20″ data-aos-easing="linear" data-aos-duration="2000">
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tristique erat. Aliquam eros ex, rhoncus sed posuere id, tincidunt in nunc. Morbi tempor, est ut pharetra vestibulum, tellus odio sodales nisi, quis sodales dui ex eget sem. Cras iaculis hendrerit dui nec tristique. Fusce tincidunt auctor lobortis. Suspendisse convallis vulputate nunc, a maximus sapien tristique quis. Phasellus quis magna ut lorem lobortis ultrices. Fusce vitae egestas neque, a gravida quam. Proin faucibus congue lorem, id vulputate nunc elementum in. Curabitur vitae aliquet nisl, eget elementum risus. </p>
+				</div>
+			</div>			
+		</section>
+
+		<hr>
+<!--Tours-->
+
+		<section class="seccion" id="tour" >
+			<h2>Tour.</h2>
+			<h3 data-aos="fade-right" data-aos-delay="20" data-aos-easing="linear" data-aos-duration="2000">Madrid - 01 · 09 · 2021</h3>
+			<h3 data-aos="fade-right" data-aos-delay="20" data-aos-easing="linear" data-aos-duration="2000">Barcelona - 07 · 10 · 2021</h3>
+			<h3 data-aos="fade-right" data-aos-delay="20" data-aos-easing="linear" data-aos-duration="2000">Bilbao - 09 · 12 · 2021</h3>
+		</section>
+
+		<hr>
+<!--Blog-->
+		<section class="blog" id="blog">
+			<div class="blog-content">
+				<article class="post" data-aos="fade-down" data-aos-delay=»20″ data-aos-easing="linear" data-aos-duration="500">
+					<h2>Titulo del post</h2>
+					<span class="fecha">01 · 09 · 2021</span>
+					<img src="./img/blog1.jpg">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tristique erat. Aliquam eros ex, rhoncus sed posuere id, tincidunt in nunc. Morbi tempor, est ut pharetra vestibulum, tellus odio sodales nisi, quis sodales dui ex eget sem. Cras iaculis hendrerit dui nec tristique. Fusce tincidunt auctor lobortis. </p>
+					
+					<button class="btn">Leer más</button>
+				</article>
+			</div>
+
+			<div class="sidebar">
+				<h2>Archivo del blog</h2>
+				<ul>
+					<li><a href="#">Noche en Berlín</a></li>
+					<li><a href="#">Nuevo LP - Abril</a></li>
+					<li><a href="#">Más y mejor</a></li>
+				</ul>
+			</div>	
+		</section>
+
+		<hr>
+
+<!--Contacto-->
+		<section class="contact" id="contact" data-aos="fade-up" data-aos-delay=»20″ data-aos-easing="linear"
+     data-aos-duration="2000">
+			<h2>Contact me!</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<form >
+				<input type="text" name="nombre" placeholder="Nombre" class="form-input" minlength="3" required>
+				<input type="text" name="asunto" placeholder="Asunto" class="form-input" minlength="3" required>
+				<input type="email" name="email" placeholder="Email" class="form-input" required>
+				<textarea type="text" name="mensaje" placeholder="Escribe tu mensaje" minlength="10" class="form-input form-textarea" required></textarea>
+				<input type="submit" name="" class="btn" id="btn-submit">
+			</form>
+		</section>
+
+		<img src="./img/pulpo.png" id="pulpo">
+	</div>
+<!--Footer-->
+
+	<footer>
+		<div class="rrss">
+			<a href="#"><img id="twitter" src="./img/twitter_light.png"></a>
+			<a href="#"><img id="instagram" src="./img/instagram_light.png"></a>
+		</div>	
+		<div class="logo" id="logo-footer">
+			<h1>Musictech</h1>
+			<div class="reloj"></div>			
+		</div>		
+		<h1 id="flecha">🡅</h1>	
+
+	</footer>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+ 		AOS.init();
+ 	</script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+
+</body>
+</html>
